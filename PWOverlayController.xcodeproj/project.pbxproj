@@ -13,9 +13,12 @@
 		13FA54F123458C2100CDEEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FA54EF23458C2100CDEEDB /* Main.storyboard */; };
 		13FA54F323458C2200CDEEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FA54F223458C2200CDEEDB /* Assets.xcassets */; };
 		13FA54F623458C2200CDEEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FA54F423458C2200CDEEDB /* LaunchScreen.storyboard */; };
+		13FA54FE23458CF500CDEEDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FA54FD23458CF500CDEEDB /* SecondViewController.swift */; };
+		6F79895C3D53FE8E41C7DC97 /* Pods_PWOverlayController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DAD392E90FCECA701CB35 /* Pods_PWOverlayController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C2CE82857F70E7270F4A01 /* Pods-PWOverlayController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWOverlayController.release.xcconfig"; path = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController.release.xcconfig"; sourceTree = "<group>"; };
 		13FA54E623458C2100CDEEDB /* PWOverlayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWOverlayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FA54E923458C2100CDEEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13FA54EB23458C2100CDEEDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		13FA54F223458C2200CDEEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13FA54F523458C2200CDEEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13FA54F723458C2200CDEEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FA54FD23458CF500CDEEDB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D1DAD392E90FCECA701CB35 /* Pods_PWOverlayController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWOverlayController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9F84BC72BF0C7871C5DB7A /* Pods-PWOverlayController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWOverlayController.debug.xcconfig"; path = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F79895C3D53FE8E41C7DC97 /* Pods_PWOverlayController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B19245A8A9A242E04715E50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD9F84BC72BF0C7871C5DB7A /* Pods-PWOverlayController.debug.xcconfig */,
+				09C2CE82857F70E7270F4A01 /* Pods-PWOverlayController.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13FA54DD23458C2100CDEEDB = {
 			isa = PBXGroup;
 			children = (
 				13FA54E823458C2100CDEEDB /* PWOverlayController */,
 				13FA54E723458C2100CDEEDB /* Products */,
+				0B19245A8A9A242E04715E50 /* Pods */,
+				89C0DD178A49C73ED73C0E5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,21 @@
 				13FA54E923458C2100CDEEDB /* AppDelegate.swift */,
 				13FA54EB23458C2100CDEEDB /* SceneDelegate.swift */,
 				13FA54ED23458C2100CDEEDB /* ViewController.swift */,
+				13FA54FD23458CF500CDEEDB /* SecondViewController.swift */,
 				13FA54EF23458C2100CDEEDB /* Main.storyboard */,
 				13FA54F223458C2200CDEEDB /* Assets.xcassets */,
 				13FA54F423458C2200CDEEDB /* LaunchScreen.storyboard */,
 				13FA54F723458C2200CDEEDB /* Info.plist */,
 			);
 			path = PWOverlayController;
+			sourceTree = "<group>";
+		};
+		89C0DD178A49C73ED73C0E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DAD392E90FCECA701CB35 /* Pods_PWOverlayController.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FA54FA23458C2200CDEEDB /* Build configuration list for PBXNativeTarget "PWOverlayController" */;
 			buildPhases = (
+				02C0DBB4298267C32F39AF9B /* [CP] Check Pods Manifest.lock */,
 				13FA54E223458C2100CDEEDB /* Sources */,
 				13FA54E323458C2100CDEEDB /* Frameworks */,
 				13FA54E423458C2100CDEEDB /* Resources */,
+				A27365B42700CAC9AC148FFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C0DBB4298267C32F39AF9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PWOverlayController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27365B42700CAC9AC148FFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13FA54E223458C2100CDEEDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FA54FE23458CF500CDEEDB /* SecondViewController.swift in Sources */,
 				13FA54EE23458C2100CDEEDB /* ViewController.swift in Sources */,
 				13FA54EA23458C2100CDEEDB /* AppDelegate.swift in Sources */,
 				13FA54EC23458C2100CDEEDB /* SceneDelegate.swift in Sources */,
@@ -282,6 +355,7 @@
 		};
 		13FA54FB23458C2200CDEEDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9F84BC72BF0C7871C5DB7A /* Pods-PWOverlayController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		13FA54FC23458C2200CDEEDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C2CE82857F70E7270F4A01 /* Pods-PWOverlayController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

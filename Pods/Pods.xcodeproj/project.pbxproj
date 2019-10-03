@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05496B967028C93A4E899CED4621353F /* DTOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E460F716AB9F3590710BD3E6D6B6B /* DTOverlayController.swift */; };
+		0C270A4B91BB64BF7F76354675546F7F /* DTOverlayController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D36C7EA0375CFB2FCC7D2A4B02675 /* DTOverlayController-dummy.m */; };
+		1373B7E5BC8E3C4F19156AFF8C2FBE3D /* Pods-PWOverlayController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D86AD6B3BAA9FD11C7F7925D0241A22E /* Pods-PWOverlayController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA7A6279491282D21BB9B3ACF5B78B7 /* DTScrollViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6F61FF5DDB97652D46859C1AA48CF /* DTScrollViewRepresentable.swift */; };
+		42BF64D5515423CF95E6F8649A1ADFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6E41191A34269CDC6D9B0122DC3D85AE /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE74765950566A863F199BF1E31BB42 /* InteractiveTransition.swift */; };
+		72ED8435D1CC345E0F3DF48DF46382DF /* TransitioningAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0744C15B73B9389D8B450902A424676 /* TransitioningAnimator.swift */; };
+		B78F4FE2C56E5C8C0DD11AF4EFD7E9FB /* Pods-PWOverlayController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A2ACE7FE31D0F95E0C8FBF08B025C /* Pods-PWOverlayController-dummy.m */; };
+		DC96F186D2DA416A77C75E5D306E435B /* DTOverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB4C5CF90F87B4F7935B33C3B273D8 /* DTOverlayPresentationController.swift */; };
+		F530A4210A32AE2F3CFBE598ECDADDB1 /* DTOverlayController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F128D6A66CFA811D3BD1C13E18EB88 /* DTOverlayController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDEA91DDA1B402F9D1816E6B1C0EF56B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E1A08648A16A5A683F2421EA2298336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A54C567BAF7759AC205CB50EDD7DA1E;
+			remoteInfo = DTOverlayController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018A2ACE7FE31D0F95E0C8FBF08B025C /* Pods-PWOverlayController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWOverlayController-dummy.m"; sourceTree = "<group>"; };
+		08D445D087CCC18FEE87AD1A47D4552D /* Pods-PWOverlayController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWOverlayController-Info.plist"; sourceTree = "<group>"; };
+		0973A2DD74B31367DCF180F2501BE628 /* DTOverlayController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTOverlayController-prefix.pch"; sourceTree = "<group>"; };
+		12D6F61FF5DDB97652D46859C1AA48CF /* DTScrollViewRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTScrollViewRepresentable.swift; path = DTOverlayController/Classes/DTScrollViewRepresentable.swift; sourceTree = "<group>"; };
+		1B2D36C7EA0375CFB2FCC7D2A4B02675 /* DTOverlayController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTOverlayController-dummy.m"; sourceTree = "<group>"; };
+		21CD002E0A08EBE8F0B829FD8F77FB67 /* DTOverlayController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTOverlayController.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		412E460F716AB9F3590710BD3E6D6B6B /* DTOverlayController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTOverlayController.swift; path = DTOverlayController/Classes/DTOverlayController.swift; sourceTree = "<group>"; };
+		5C6262FA21EE653CB3E06D5F6F92DD53 /* Pods_PWOverlayController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PWOverlayController.framework; path = "Pods-PWOverlayController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D503408738F849E2B02D8128210D766 /* Pods-PWOverlayController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWOverlayController.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE74765950566A863F199BF1E31BB42 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = DTOverlayController/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		8F92F1A87D062C82FFFE5F79FF27BAA9 /* Pods-PWOverlayController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PWOverlayController-frameworks.sh"; sourceTree = "<group>"; };
+		98F128D6A66CFA811D3BD1C13E18EB88 /* DTOverlayController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTOverlayController-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADFA7D795027F054DCAF684773FB397C /* Pods-PWOverlayController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWOverlayController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2E421EA79FC765331D5F68EB5F67088 /* DTOverlayController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTOverlayController.xcconfig; sourceTree = "<group>"; };
+		D3A2C0DBDC437EEF1C5FE740918FE8D7 /* Pods-PWOverlayController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWOverlayController-acknowledgements.plist"; sourceTree = "<group>"; };
+		D41FBA5D6E5374FDD3F25FA09CA4330A /* DTOverlayController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTOverlayController.framework; path = DTOverlayController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AD6B3BAA9FD11C7F7925D0241A22E /* Pods-PWOverlayController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWOverlayController-umbrella.h"; sourceTree = "<group>"; };
+		E6A57CD6E53E55E3892D9FE68A2E780B /* DTOverlayController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTOverlayController-Info.plist"; sourceTree = "<group>"; };
+		EEBB4C5CF90F87B4F7935B33C3B273D8 /* DTOverlayPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTOverlayPresentationController.swift; path = DTOverlayController/Classes/DTOverlayPresentationController.swift; sourceTree = "<group>"; };
+		F0744C15B73B9389D8B450902A424676 /* TransitioningAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitioningAnimator.swift; path = DTOverlayController/Classes/TransitioningAnimator.swift; sourceTree = "<group>"; };
+		F4344163C59D8586B0160F98C97CA0D6 /* Pods-PWOverlayController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PWOverlayController.modulemap"; sourceTree = "<group>"; };
+		FB7329C754E4A62A507AC0485E4E73EF /* Pods-PWOverlayController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWOverlayController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929B374293F5D87AE3C72625AFA5ED38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BF64D5515423CF95E6F8649A1ADFE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A402544426FF76D571E682653BFCBA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEA91DDA1B402F9D1816E6B1C0EF56B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC4CA1B1010B32B562AE29B0DE9F9AE /* DTOverlayController */ = {
+			isa = PBXGroup;
+			children = (
+				412E460F716AB9F3590710BD3E6D6B6B /* DTOverlayController.swift */,
+				EEBB4C5CF90F87B4F7935B33C3B273D8 /* DTOverlayPresentationController.swift */,
+				12D6F61FF5DDB97652D46859C1AA48CF /* DTScrollViewRepresentable.swift */,
+				8AE74765950566A863F199BF1E31BB42 /* InteractiveTransition.swift */,
+				F0744C15B73B9389D8B450902A424676 /* TransitioningAnimator.swift */,
+				D9E8C71B35B6CEFC656D9CBAFB5C8E78 /* Support Files */,
+			);
+			name = DTOverlayController;
+			path = DTOverlayController;
+			sourceTree = "<group>";
+		};
+		774DE2AF4636B6049306DD495F39EB56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FC4CA1B1010B32B562AE29B0DE9F9AE /* DTOverlayController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81BB2A6F8383911D6C61B0F6CCBE5576 /* Pods-PWOverlayController */ = {
+			isa = PBXGroup;
+			children = (
+				F4344163C59D8586B0160F98C97CA0D6 /* Pods-PWOverlayController.modulemap */,
+				ADFA7D795027F054DCAF684773FB397C /* Pods-PWOverlayController-acknowledgements.markdown */,
+				D3A2C0DBDC437EEF1C5FE740918FE8D7 /* Pods-PWOverlayController-acknowledgements.plist */,
+				018A2ACE7FE31D0F95E0C8FBF08B025C /* Pods-PWOverlayController-dummy.m */,
+				8F92F1A87D062C82FFFE5F79FF27BAA9 /* Pods-PWOverlayController-frameworks.sh */,
+				08D445D087CCC18FEE87AD1A47D4552D /* Pods-PWOverlayController-Info.plist */,
+				D86AD6B3BAA9FD11C7F7925D0241A22E /* Pods-PWOverlayController-umbrella.h */,
+				7D503408738F849E2B02D8128210D766 /* Pods-PWOverlayController.debug.xcconfig */,
+				FB7329C754E4A62A507AC0485E4E73EF /* Pods-PWOverlayController.release.xcconfig */,
+			);
+			name = "Pods-PWOverlayController";
+			path = "Target Support Files/Pods-PWOverlayController";
+			sourceTree = "<group>";
+		};
+		A28304E22374B7D25E20E486FA7A7DFB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81BB2A6F8383911D6C61B0F6CCBE5576 /* Pods-PWOverlayController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				774DE2AF4636B6049306DD495F39EB56 /* Pods */,
+				D2953C7A61BC461951F890646E94D82B /* Products */,
+				A28304E22374B7D25E20E486FA7A7DFB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2953C7A61BC461951F890646E94D82B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41FBA5D6E5374FDD3F25FA09CA4330A /* DTOverlayController.framework */,
+				5C6262FA21EE653CB3E06D5F6F92DD53 /* Pods_PWOverlayController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E8C71B35B6CEFC656D9CBAFB5C8E78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21CD002E0A08EBE8F0B829FD8F77FB67 /* DTOverlayController.modulemap */,
+				D2E421EA79FC765331D5F68EB5F67088 /* DTOverlayController.xcconfig */,
+				1B2D36C7EA0375CFB2FCC7D2A4B02675 /* DTOverlayController-dummy.m */,
+				E6A57CD6E53E55E3892D9FE68A2E780B /* DTOverlayController-Info.plist */,
+				0973A2DD74B31367DCF180F2501BE628 /* DTOverlayController-prefix.pch */,
+				98F128D6A66CFA811D3BD1C13E18EB88 /* DTOverlayController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTOverlayController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA42DA1F059B5302A340C839E906F72F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F530A4210A32AE2F3CFBE598ECDADDB1 /* DTOverlayController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B7453A08A52CFF0BE757D0BB17DD2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1373B7E5BC8E3C4F19156AFF8C2FBE3D /* Pods-PWOverlayController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A54C567BAF7759AC205CB50EDD7DA1E /* DTOverlayController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBC45ACC64FCEF45E56E4BDF6FD1BF /* Build configuration list for PBXNativeTarget "DTOverlayController" */;
+			buildPhases = (
+				DA42DA1F059B5302A340C839E906F72F /* Headers */,
+				05B5D8848843B428BCD8A7CEEBA96D68 /* Sources */,
+				A402544426FF76D571E682653BFCBA74 /* Frameworks */,
+				EAC39BAF535C683F321E5BA9CC24C138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTOverlayController;
+			productName = DTOverlayController;
+			productReference = D41FBA5D6E5374FDD3F25FA09CA4330A /* DTOverlayController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D06E9D9F3196D9F422453B3860B9502F /* Pods-PWOverlayController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542B4C9ED6F4B5372F3DE47E990EDE24 /* Build configuration list for PBXNativeTarget "Pods-PWOverlayController" */;
+			buildPhases = (
+				E5B7453A08A52CFF0BE757D0BB17DD2D /* Headers */,
+				B911AA5925B92580897C6CB87CCE50EC /* Sources */,
+				929B374293F5D87AE3C72625AFA5ED38 /* Frameworks */,
+				0DA45C6A68ADA01530839E843FE23A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87817323C6EC0E970A56222BF983975C /* PBXTargetDependency */,
+			);
+			name = "Pods-PWOverlayController";
+			productName = "Pods-PWOverlayController";
+			productReference = 5C6262FA21EE653CB3E06D5F6F92DD53 /* Pods_PWOverlayController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D2953C7A61BC461951F890646E94D82B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A54C567BAF7759AC205CB50EDD7DA1E /* DTOverlayController */,
+				D06E9D9F3196D9F422453B3860B9502F /* Pods-PWOverlayController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA45C6A68ADA01530839E843FE23A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC39BAF535C683F321E5BA9CC24C138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05B5D8848843B428BCD8A7CEEBA96D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C270A4B91BB64BF7F76354675546F7F /* DTOverlayController-dummy.m in Sources */,
+				05496B967028C93A4E899CED4621353F /* DTOverlayController.swift in Sources */,
+				DC96F186D2DA416A77C75E5D306E435B /* DTOverlayPresentationController.swift in Sources */,
+				2AA7A6279491282D21BB9B3ACF5B78B7 /* DTScrollViewRepresentable.swift in Sources */,
+				6E41191A34269CDC6D9B0122DC3D85AE /* InteractiveTransition.swift in Sources */,
+				72ED8435D1CC345E0F3DF48DF46382DF /* TransitioningAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911AA5925B92580897C6CB87CCE50EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78F4FE2C56E5C8C0DD11AF4EFD7E9FB /* Pods-PWOverlayController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87817323C6EC0E970A56222BF983975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTOverlayController;
+			target = 0A54C567BAF7759AC205CB50EDD7DA1E /* DTOverlayController */;
+			targetProxy = 3E1A08648A16A5A683F2421EA2298336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		137C6BFE23D87E73493AE99AE925B9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D503408738F849E2B02D8128210D766 /* Pods-PWOverlayController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6E86E1F5D00DD27AF758A573EB6C69B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7329C754E4A62A507AC0485E4E73EF /* Pods-PWOverlayController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWOverlayController/Pods-PWOverlayController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9AEB6A23EFED3FE91DBC0B3CE667450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E421EA79FC765331D5F68EB5F67088 /* DTOverlayController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTOverlayController/DTOverlayController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTOverlayController/DTOverlayController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTOverlayController/DTOverlayController.modulemap";
+				PRODUCT_MODULE_NAME = DTOverlayController;
+				PRODUCT_NAME = DTOverlayController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D93D5EB3BBF0932624E5D11654FFA345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E421EA79FC765331D5F68EB5F67088 /* DTOverlayController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTOverlayController/DTOverlayController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTOverlayController/DTOverlayController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTOverlayController/DTOverlayController.modulemap";
+				PRODUCT_MODULE_NAME = DTOverlayController;
+				PRODUCT_NAME = DTOverlayController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEBC45ACC64FCEF45E56E4BDF6FD1BF /* Build configuration list for PBXNativeTarget "DTOverlayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93D5EB3BBF0932624E5D11654FFA345 /* Debug */,
+				B9AEB6A23EFED3FE91DBC0B3CE667450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542B4C9ED6F4B5372F3DE47E990EDE24 /* Build configuration list for PBXNativeTarget "Pods-PWOverlayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137C6BFE23D87E73493AE99AE925B9A4 /* Debug */,
+				6E86E1F5D00DD27AF758A573EB6C69B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
